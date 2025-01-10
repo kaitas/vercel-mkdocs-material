@@ -41,7 +41,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Blog: blog/
+  - Blog: blog/index.md
   - About: about.md
 
 plugins:
