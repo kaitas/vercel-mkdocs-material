@@ -1,10 +1,15 @@
 {
     "builds": [
       {
+        "src": "requirements.txt",
+        "use": "@vercel/python"
+      },
+      {
         "src": "package.json",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "public"
+          "distDir": "public",
+          "buildCommand": "mkdocs build -d public"
         }
       }
     ],
