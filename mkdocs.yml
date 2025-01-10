@@ -60,7 +60,7 @@ extra:
 #  analytics:
 #    provider: google
 #    property: G-DQDGMD4GSE
-#  alternate:
+  alternate:
     - name: English
       link: /
       lang: en
