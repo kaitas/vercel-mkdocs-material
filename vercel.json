@@ -1,5 +1,5 @@
 {
-    "buildCommand": "",
+    "buildCommand": "mkdocs build -d public",
     "outputDirectory": "public",
     "framework": null
   }
