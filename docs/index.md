@@ -1,5 +1,7 @@
-# Vercel-MkDocs
+# Vercel-MkDocs-Material
 
+
+Inspired from this repo:
 <https://github.com/fu-sen/Vercel-MkDocs>
 
 **MkDocs with ▲Vercel (minimal configuration)**

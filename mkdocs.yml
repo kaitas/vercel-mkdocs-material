@@ -1,1 +1,29 @@
-site_name: Vercel-MkDocs
+site_name: Vercel-MkDocs-Material
+site_description: Vercel-MkDocs-Material is a Material Design theme for MkDocs, a static site generator geared towards (technical) project documentation. It is built with Material Components for the Web, a framework that implements Material Design guidelines from Google.
+site_author: Akihiko Shirai
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: pink
+  font:
+    text: Noto Sans JP
+    code: Inconsolata
+  features:
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.sticky
+#    - navigation.sections
+#    - navigation.expand
+#    - navigation.collapsible
+    - navigation.top
+    - header.autohide
+  icon:
+    repo: fontawesome/brands/github
+  custom_dir: overrides
+  pallette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+

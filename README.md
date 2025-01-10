@@ -1,6 +1,6 @@
-## Vercel-MkDocs
+## Vercel-MkDocs-Material
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffu-sen%2FVercel-MkDocs)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkaitas%2Fvercel-mkdocs-material)
 
 **MkDocs with ▲Vercel (minimal configuration)**
 
@@ -11,7 +11,16 @@
 
 1. Edit `mkdocs.yml` and `docs/index.md`, add more files if needed.
 2. Add the pip package to `requirements.txt` . (Themes and plugins)
-3. Use the Vercel command: `vercel dev` `vercel` and `vercel --prod`  
+
+3. Local build
+
+```
+pip install mkdocs
+pip install mkdocs-material
+mkdocs serve
+```
+
+4. Use the Vercel command: `vercel dev` `vercel` and `vercel --prod`  
 or commit to a Git project: `git push`
 
 You do not need to change the `Build & Development Settings` item.
