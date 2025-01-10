@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "mkdocs serve"
+    "dev": "mkdocs serve",
+    "vercel-build": "echo 'Ignoring vercel-build because builds are defined in vercel.json'"
   }
 }
