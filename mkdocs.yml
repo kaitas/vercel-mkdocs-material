@@ -54,3 +54,43 @@ plugins:
 #    kwds:
 #    case: lower
   tags:
+
+extra:
+#  analytics:
+#    provider: google
+#    property: G-DQDGMD4GSE
+#  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Japanese
+      link: /ja/
+      lang: ja
+  consent:
+    title: Cookie consent
+    description:
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/o_ob
+      name: o_ob on X
+    - icon: fontawesome/brands/github
+      link: https://github.com/kaitas/vercel-mkdocs-material
+  generator: false
+
+extra_javascript: 
+  - javascripts/github-calendar.min.js
+  - https://platform.twitter.com/widgets.js
+  - js/custom_twitter.js
+#  - js/mathjax.js
+#  - https://polyfill.io/v3/polyfill.min.js?features=es6
+#  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  
+extra_css:
+  - stylesheets/github-calendar-responsive.css
+  - stylesheets/extra.css # https://squidfunk.github.io/mkdocs-material/customization/#additional-css
+  - https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css
+
