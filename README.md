@@ -7,13 +7,14 @@
 - [▲ Vercel](https://vercel.com/)
 - [MkDocs](https://www.mkdocs.org/)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- [Material for MkdDocs on GitHub Actions](https://github.com/kaitas/2025/blob/main/.github/workflows/mkdocs.yml)
 - [mkdocs-blog-plugin](https://github.com/liang2kl/mkdocs-blog-plugin)
-
-
 
 ## Getting Started
 
 ### 1. Clone the Repository
+
+<https://github.com/kaitas/vercel-MkDocs-material/>
 
 ```bash
 git clone <your_repository_url>
