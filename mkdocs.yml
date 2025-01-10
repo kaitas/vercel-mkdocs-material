@@ -44,7 +44,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Vercel: vercel.md
-  - GitHub Actions: https://github.com/kaitas/2025/blob/main/.github/workflows/mkdocs.yml
+  - GitHub:
+   - Actions: https://github.com/kaitas/2025/blob/main/.github/workflows/mkdocs.yml
   - About: about.md
 
 plugins:
@@ -78,7 +79,7 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
   social:
-    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/x-twitter
       link: https://x.com/o_ob
       name: o_ob on X
     - icon: fontawesome/brands/github
