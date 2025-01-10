@@ -19,6 +19,7 @@ theme:
 #    - navigation.sections
     - navigation.top
     - header.autohide
+    - announce.dismiss
   icon:
     repo: fontawesome/brands/github
   custom_dir: overrides
