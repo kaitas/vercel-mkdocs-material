@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
+
 {% block extrahead %}
   {% set title = config.site_name %}
   {% if page and page.title and not page.is_homepage %}
@@ -22,4 +23,15 @@
   <meta property="og:image" content="{{ image }}">
   <meta name="twitter:image" content="{{ image }}">
   <meta property="og:url" content="{{ page.canonical_url }}">
+{% endblock %}
+
+
+{% block announce %}
+  <!-- Add announcement here, including arbitrary HTML -->
+This is an announcement!
+{% endblock %}
+
+{% block content %}
+  <h1>{{ page.title }}</h1>
+  {{ content | safe }}
 {% endblock %}

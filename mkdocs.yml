@@ -47,8 +47,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Vercel: vercel.md
-  - GitHub:
-    - Actions: https://github.com/kaitas/2025/blob/main/.github/workflows/mkdocs.yml
+  - Actions: https://github.com/kaitas/2025/blob/main/.github/workflows/mkdocs.yml
   - About: about.md
 
 plugins:

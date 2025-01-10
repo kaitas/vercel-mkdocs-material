@@ -5,13 +5,6 @@ hide:
 
 # Vercel
 
-{% extends "base.html" %}
-
-{% block announce %}
-  <!-- Add announcement here, including arbitrary HTML -->
-this is a copy of README.
-
-{% endblock %}
 
 
 ## Getting Started
