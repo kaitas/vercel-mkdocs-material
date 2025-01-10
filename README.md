@@ -23,7 +23,19 @@ mkdocs serve
 4. Use the Vercel command: `vercel dev` `vercel` and `vercel --prod`  
 or commit to a Git project: `git push`
 
-You do not need to change the `Build & Development Settings` item.
+Checnk the `Build & Development Settings` items.
+
+- Framework Preset: Other
+
+- Build Command: (null) Override: off
+
+- Output Directory: ``public`` Override: on
+
+- Install Command: (null) Override: off
+
+- Development Command: ``mkdocs serve`` Override: on
+
+
 
 ## Build error
 
