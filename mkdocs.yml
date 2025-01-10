@@ -15,15 +15,41 @@ theme:
     - navigation.tabs
     - navigation.sticky
 #    - navigation.sections
-#    - navigation.expand
-#    - navigation.collapsible
     - navigation.top
     - header.autohide
   icon:
     repo: fontawesome/brands/github
   custom_dir: overrides
-  pallette:
-    - scheme: default
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
       accent: pink
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
 
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: red
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Blog: blog/
+  - About: about.md
+
+plugins:
+  search:
+    lang: 'ja'
+  blog: #https://squidfunk.github.io/mkdocs-material/plugins/blog/#config.blog_dir
+#    blog_dir: .
+    blog_toc: true
+#   post_url_format: # default is yyyy/mm/dd/{slug}
+#    post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+#    kwds:
+#    case: lower
+  tags:

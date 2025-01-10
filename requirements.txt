@@ -1,9 +1,12 @@
 mkdocs
 cairosvg
+mkdocs-blog-plugin
+mkdocs-rss-plugin
 mkdocs-material
 mkdocs-material[imaging]
 python-markdown-math
 fontawesome_markdown
 mdx_unimoji
 pymdown-extensions
-mkdocs-rss-plugin
+pyyaml
+jinja2

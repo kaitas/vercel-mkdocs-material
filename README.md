@@ -6,6 +6,7 @@
 
 - [▲ Vercel](https://vercel.com/)
 - [MkDocs](https://www.mkdocs.org/)
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 ## How to use
 
@@ -15,8 +16,7 @@
 3. Local build
 
 ```
-pip install mkdocs
-pip install mkdocs-material
+pip install -r requirements.txt
 mkdocs serve
 ```
 
