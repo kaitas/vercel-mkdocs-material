@@ -1,4 +1,5 @@
 site_name: Vercel-MkDocs-Material
+site_url: https://vercel-mkdocs-material.vercel.app/
 site_description: Vercel-MkDocs-Material is a Material Design theme for MkDocs, a static site generator geared towards (technical) project documentation. It is built with Material Components for the Web, a framework that implements Material Design guidelines from Google.
 site_author: Akihiko Shirai
 site_dir: public
