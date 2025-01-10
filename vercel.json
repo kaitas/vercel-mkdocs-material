@@ -1,7 +1,2 @@
 {
-    "builds": [
-      {
-        "use": "@vercel/python"
-      }
-    ]
-  }
+}
