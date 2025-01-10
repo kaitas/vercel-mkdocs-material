@@ -23,7 +23,7 @@ mkdocs serve
 4. Use the Vercel command: `vercel dev` `vercel` and `vercel --prod`  
 or commit to a Git project: `git push`
 
-Checnk the `Build & Development Settings` items.
+Check the `Build & Development Settings` items.
 
 - Framework Preset: Other
 
