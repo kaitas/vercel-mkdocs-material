@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Vercel
 
 {% extends "base.html" %}
